@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header{
+    background-image: url(images/rottenlargebg.png);
+    height:50px;
+    background-repeat: repeat-x;
+
+}
+.header img{
+    height:50px;
+    margin: auto;
+    display: block;
+    width: 400px;
+}
+
+/* heading_title */
+.heading_title{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+    text-shadow: #999999 3px 3px;
+}
+
+/* Content */
+
+/* left_side */
+.content{
+    width:92%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.left_side{
+    width:85%;
+    position: relative;
+    background-color: #EEEEEE;
+}
+
+/* left_header */
+.left_header{
+    background-image: url(images/rottenlargebg.png);
+    width:100%;
+    
+    background-repeat: repeat-x; 
+}
+.left_header img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height:80px;
+    width: 250px;
+}
+.num91{
+    font-size: 80px;
+    display: inline-block;
+    margin-left: 450px;
+    color: red;
+}
+
+/* reviews */
+.reviews{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.img_with_text{
+    width: 30px;
+}
+.review_text{
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: 2px solid #CCCCCC;
+    border-radius: 12px;
+    width: 95%;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: #FFF;
+}
+.review_user{
+    font-size: 13pt; 
+}
+.italic{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+/* right_side */
+.right_side{
+    width:50%;
+    background-image: url(images/bg.png);
+    background-color: #A2B964;
+}
+
+.right_header img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.info{
+    padding-left: 20px ;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+    text-decoration: none;
+    color: black; 
+}
+.line:hover{
+    color: blue; 
+}
+.link{
+    padding-left: 40px;
+}
+.link:hover{
+    padding-left: 40px;
+    color: rgb(66, 66, 238);
+}
+.links{
+    list-style: none;
+}
+
+.space{
+    padding-left: 30px;
+}
+
+
+/* footer */
+.footer{
+    background-color: rgb(185, 182, 182);
+    width: 92%;
+    height: 30px;
+    margin-left: 67px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
